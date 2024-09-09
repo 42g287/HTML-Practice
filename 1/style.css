@@ -1,0 +1,51 @@
+body{
+  padding: 0px; margin: 0px
+}
+
+.header{
+  display: flex; justify-content: space-between; padding: 0px 20px ;
+}
+
+a{
+  text-decoration: none; 
+}
+
+.iconeImg{
+  padding: 5px;
+}
+
+.nav{        
+  display: flex;
+  border: solid rgb(1, 234, 255);
+  background-color: azure;
+  justify-content: space-between;
+  width: 100%;
+}
+.logo{
+  margin-left: 50px;
+}
+.side_bar{
+  display: grid;
+    border: solid rgb(1, 234, 255);
+    width: 20%;
+    height: 80vh;
+    background-color: azure;
+    float: left;
+}
+.footer{
+  height: fit-content; width: 100%; background-color:  rgb(211, 211, 211);display: flex; flex-direction: column;
+}
+.footer_social{
+  display: flex; justify-content: space-between; padding: 10px;
+}
+.social_ul{
+  display: block;
+}
+.footer_copy{
+  color: rgb(255, 255, 255); 
+  text-align: center;
+  font-size: 2px0;
+}
+.iframe_body{
+  width: 78.5%; height: 500px; border: solid greenyellow; float: right;
+}
